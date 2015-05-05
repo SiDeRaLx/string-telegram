@@ -36,7 +36,7 @@
   <string name="Connecting">Connessione…</string>
   <string name="Updating">Aggiornamento…</string>
   <string name="NewSecretChat">Nuova chat segreta</string>
-  <string name="AwaitingEncryption">Aspettando che %s si colleghi…</string>
+  <string name="AwaitingEncryption">In attesa che %s si colleghi…</string>
   <string name="EncryptionRejected">Chat segreta annullata</string>
   <string name="EncryptionProcessing">Scambio delle chiavi di cifratura...</string>
   <string name="EncryptedChatStartedOutgoing">%s si è unito alla tua chat segreta.</string>
@@ -86,10 +86,6 @@
   <string name="IsSendingPhoto">%1$s sta inviando una foto...</string>
   <string name="IsSendingVideo">%1$s sta inviando un video...</string>
   <string name="IsSendingFile">%1$s sta inviando un file...</string>
-  <string name="RecordingAudio">registrando un audio...</string>
-  <string name="SendingPhoto">inviando una foto...</string>
-  <string name="SendingVideoStatus">inviando un video...</string>
-  <string name="SendingFile">inviando un file...</string>
   <string name="GotAQuestion">Hai una domanda\nsu Telegram?</string>
   <string name="ChatTakePhoto">Scatta una foto</string>
   <string name="ChatGallery">Galleria</string>
@@ -111,7 +107,7 @@
   <string name="EncryptedDescription2">Non lasciano traccia sui nostri server</string>
   <string name="EncryptedDescription3">Hanno un timer di autodistruzione</string>
   <string name="EncryptedDescription4">Non permettono l’inoltro</string>
-  <string name="YouWereKicked">Sei stato rimosso da questo gruppo</string>
+  <string name="YouWereKicked">Sei stato espulso da questo gruppo</string>
   <string name="YouLeft">Hai lasciato il gruppo</string>
   <string name="DeleteThisGroup">Elimina questo gruppo</string>
   <string name="DeleteThisChat">Elimina questa chat</string>
@@ -152,13 +148,12 @@
   <string name="NotificationEditedGroupPhoto">%1$s ha modificato la foto del gruppo %2$s</string>
   <string name="NotificationGroupAddMember">%1$s ha invitato %3$s nel gruppo %2$s</string>
   <string name="NotificationGroupAddSelf">%1$s è rientrato nel gruppo %2$s</string>
-  <string name="NotificationGroupKickMember">%1$s ha rimosso %3$s dal gruppo %2$s</string>
-  <string name="NotificationGroupKickYou">%1$s ti ha rimosso dal gruppo %2$s</string>
+  <string name="NotificationGroupKickMember">%1$s ha espulso %3$s dal gruppo %2$s</string>
+  <string name="NotificationGroupKickYou">%1$s ti ha espulso dal gruppo %2$s</string>
   <string name="NotificationGroupLeftMember">%1$s ha lasciato il gruppo %2$s</string>
   <string name="NotificationContactJoined">%1$s ha iniziato a usare Telegram!</string>
   <string name="NotificationUnrecognizedDevice">%1$s,\nAbbiamo rilevato un accesso al tuo account da un nuovo dispositivo il %2$s\n\nDispositivo: %3$s\nPosizione: %4$s\n\nSe non sei stato tu, puoi andare su Impostazioni - Privacy e Sicurezza - Sessioni - Termina tutte le sessioni.\n\nSe pensi che qualcuno si sia collegato al tuo account contro il tuo volere, ti raccomandiamo di attivare la verifica in due passaggi nelle impostazioni di Privacy e Sicurezza.\n\nGrazie,\nil team di Telegram</string>
   <string name="NotificationContactNewPhoto">%1$s ha aggiornato la foto del profilo</string>
-  <string name="NotificationInvitedToGroupByLink">%1$s si è unito al gruppo %2$s tramite link di invito</string>
   <string name="Reply">Rispondi</string>
   <string name="ReplyToGroup">Rispondi a %1$s</string>
   <string name="ReplyToUser">Rispondi a %1$s</string>
@@ -184,26 +179,13 @@
   <string name="EnterGroupNamePlaceholder">Immetti il nome del gruppo</string>
   <string name="GroupName">Nome gruppo</string>
   <string name="MembersCount">%1$d/%2$d membri</string>
-  <string name="JoinToGroup">Vuoi unirti al gruppo \'%1$s\'?</string>
-  <string name="JoinToGroupErrorFull">Ci spiace, questo gruppo è già pieno.</string>
-  <string name="JoinToGroupErrorNotExist">Ci spiace, sembra che questo gruppo non esista.</string>
-  <string name="LinkCopied">Link copiato negli appunti</string>
-  <string name="InviteToGroupByLink">Invita nel gruppo tramite link</string>
-  <string name="InviteLink">Link di invito</string>
-  <string name="RevokeAlert">Sei sicuro di voler revocare questo link? Una volta fatto, nessuno potrà unirsi al gruppo utilizzandolo.</string>
-  <string name="RevokeAlertNewLink">Il precedente link di invito è inattivo. Ne è appena stato creato uno nuovo.</string>
-  <string name="RevokeButton">Revoca</string>
-  <string name="RevokeLink">Revoca link</string>
-  <string name="CopyLink">Copia link</string>
-  <string name="ShareLink">Condividi link</string>
-  <string name="LinkInfo">Chiunque abbia Telegram installato, sarà in grado di aggiungersi al tuo gruppo aprendo il link.</string>
   <!--group info view-->
   <string name="SharedMedia">Media condivisi</string>
   <string name="SETTINGS">Impostazioni</string>
   <string name="AddMember">Aggiungi membro</string>
   <string name="DeleteAndExit">Elimina e lascia il gruppo</string>
   <string name="Notifications">Notifiche</string>
-  <string name="KickFromGroup">Rimuovi dal gruppo</string>
+  <string name="KickFromGroup">Espelli dal gruppo</string>
   <!--contact info view-->
   <string name="ShareContact">Condividi</string>
   <string name="AddContact">Aggiungi</string>
@@ -294,7 +276,7 @@
   <string name="OnlyWhenScreenOn">Solo con schermo acceso</string>
   <string name="OnlyWhenScreenOff">Solo con schermo spento</string>
   <string name="AlwaysShowPopup">Mostra sempre i popup</string>
-  <string name="BadgeNumber">Contatore badge</string>
+  <string name="BadgeNumber">Contatore Badge</string>
   <string name="Short">Breve</string>
   <string name="Long">Lunga</string>
   <string name="SystemDefault">Predefinito di sistema</string>
@@ -312,7 +294,7 @@
   <string name="NotificationsPriorityHigh">Alta</string>
   <string name="NotificationsPriorityMax">Massima</string>
   <string name="RepeatNotificationsNever">Mai</string>
-  <string name="RepeatNotifications">Ripeti notifiche</string>
+  <string name="RepeatNotifications">Ripeti Notifiche</string>
   <string name="PhoneNumberHelp">Puoi cambiare il tuo numero di telefono qui. Il tuo account e tutti i tuoi dati cloud — messaggi, file, contatti, etc. saranno trasferiti sul nuovo numero.\n\n<![CDATA[<b>Importante:</b>]]> a tutti i tuoi contatti di Telegram verrà aggiunto il tuo <![CDATA[<b>nuovo numero</b>]]> ai contatti, purché abbiano il tuo vecchio numero e tu non li abbia bloccati su Telegram.</string>
   <string name="PhoneNumberAlert">Tutti i tuoi contatti Telegram avranno il tuo nuovo numero tra i loro contatti, purché abbiano il tuo vecchio numero e tu non li abbia bloccati su Telegram.</string>
   <string name="PhoneNumberChange">CAMBIA NUMERO</string>
@@ -326,13 +308,6 @@
   <string name="RepeatDisabled">No</string>
   <string name="InChatSound">Suoni in-chat</string>
   <string name="SoundDefault">Predefinito</string>
-  <string name="SmartNotifications">Notifiche intelligenti</string>
-  <string name="SmartNotificationsDisabled">Disabilitate</string>
-  <string name="SmartNotificationsInfo">Suona al massimo %1$s in %2$s</string>
-  <string name="SmartNotificationsSoundAtMost">Suona al massimo</string>
-  <string name="SmartNotificationsTimes">volte</string>
-  <string name="SmartNotificationsWithin">in</string>
-  <string name="SmartNotificationsMinutes">minuti</string>
   <!--sessions view-->
   <string name="SessionsTitle">Sessioni attive</string>
   <string name="CurrentSession">Sessione corrente</string>
@@ -372,20 +347,15 @@
   <string name="Hybrid">Ibrido</string>
   <string name="MetersAway">m di distanza</string>
   <string name="KMetersAway">km di distanza</string>
-  <string name="SendLocation">Invia la tua posizione attuale</string>
-  <string name="SendSelectedLocation">Invia la posizione selezionata</string>
-  <string name="ShareLocation">Posizione</string>
-  <string name="AccurateTo">Precisione di %1$s</string>
-  <string name="NearbyPlaces">O SELEZIONA UN LUOGO</string>
+  <string name="SendLocation">Invia posizione</string>
+  <string name="ShareLocation">Condividi posizione</string>
   <!--photo gallery view-->
   <string name="ShowAllMedia">Mostra tutti i file media</string>
   <string name="SaveToGallery">Salva nella galleria</string>
   <string name="Of">%1$d di %2$d</string>
   <string name="Gallery">Galleria</string>
   <string name="AllPhotos">Tutte le foto</string>
-  <string name="AllVideo">Tutti i video</string>
   <string name="NoPhotos">Ancora nessuna foto</string>
-  <string name="NoVideo">Nessun video</string>
   <string name="PleaseDownload">Scarica prima il file</string>
   <string name="NoRecentPhotos">Nessuna foto recente</string>
   <string name="NoRecentGIFs">Nessuna GIF recente</string>
@@ -415,11 +385,6 @@
   <string name="DiscardChanges">Annullare le modifiche?</string>
   <string name="ClearSearch">Cancellare la cronologia di ricerca?</string>
   <string name="ClearButton">Pulisci</string>
-  <string name="PickerPhotos">Foto</string>
-  <string name="PickerVideo">Video</string>
-  <string name="AddCaption">Aggiungi una didascalia...</string>
-  <string name="PhotoCaption">Didascalia foto</string>
-  <string name="VideoCaption">Didascalia video</string>
   <!--password view-->
   <string name="TwoStepVerification">Verifica in due passaggi</string>
   <string name="SetAdditionalPassword">Imposta password aggiuntiva</string>
@@ -471,16 +436,16 @@
   <string name="EnabledPasswordText">Hai attivato la verifica in due passaggi.\nAvrai bisogno della password che hai impostato per accedere al tuo account Telegram.</string>
   <string name="PendingEmailText">La tua e-mail di recupero %1$s non è ancora attiva e attende la conferma.</string>
   <!--privacy settings-->
-  <string name="PrivacySettings">Privacy e sicurezza</string>
+  <string name="PrivacySettings">Privacy e Sicurezza</string>
   <string name="PrivacyTitle">Privacy</string>
-  <string name="PrivacyLastSeen">Ultimo accesso</string>
+  <string name="PrivacyLastSeen">Ultimo Accesso</string>
   <string name="LastSeenEverybody">Tutti</string>
-  <string name="LastSeenContacts">I miei contatti</string>
+  <string name="LastSeenContacts">I miei Contatti</string>
   <string name="LastSeenNobody">Nessuno</string>
   <string name="LastSeenEverybodyMinus">Tutti (-%1$d)</string>
-  <string name="LastSeenContactsPlus">I miei contatti (+%1$d)</string>
-  <string name="LastSeenContactsMinus">I miei contatti (-%1$d)</string>
-  <string name="LastSeenContactsMinusPlus">I miei contatti (-%1$d, +%2$d)</string>
+  <string name="LastSeenContactsPlus">I miei Contatti (+%1$d)</string>
+  <string name="LastSeenContactsMinus">I miei Contatti (-%1$d)</string>
+  <string name="LastSeenContactsMinusPlus">I miei Contatti (-%1$d, +%2$d)</string>
   <string name="LastSeenNobodyPlus">Nessuno (+%1$d)</string>
   <string name="SecurityTitle">Sicurezza</string>
   <string name="DeleteAccountTitle">Elimina il mio account</string>
@@ -529,23 +494,21 @@
   <string name="OK">OK</string>
   <string name="Crop">RITAGLIA</string>
   <!--messages-->
-  <string name="ActionInviteYou">Ti sei unito al gruppo tramite link di invito</string>
-  <string name="ActionInviteUser">un1 si è unito al gruppo tramite link di invito</string>
-  <string name="ActionKickUser">un1 ha rimosso un2</string>
+  <string name="ActionKickUser">un1 ha espulso un2</string>
   <string name="ActionLeftUser">un1 ha lasciato il gruppo</string>
   <string name="ActionAddUser">un1 ha aggiunto un2</string>
   <string name="ActionRemovedPhoto">un1 ha rimosso la foto del gruppo</string>
   <string name="ActionChangedPhoto">un1 ha cambiato la foto del gruppo</string>
   <string name="ActionChangedTitle">un1 ha cambiato il nome del gruppo in un2</string>
   <string name="ActionCreateGroup">un1 ha creato il gruppo</string>
-  <string name="ActionYouKickUser">Hai rimosso un2</string>
+  <string name="ActionYouKickUser">Hai espulso un2</string>
   <string name="ActionYouLeftUser">Hai lasciato il gruppo</string>
   <string name="ActionYouAddUser">Hai aggiunto un2</string>
   <string name="ActionYouRemovedPhoto">Hai rimosso la foto del gruppo</string>
   <string name="ActionYouChangedPhoto">Hai cambiato la foto del gruppo</string>
   <string name="ActionYouChangedTitle">Hai cambiato il nome del gruppo in un2</string>
   <string name="ActionYouCreateGroup">Hai creato il gruppo</string>
-  <string name="ActionKickUserYou">un1 ti ha rimosso</string>
+  <string name="ActionKickUserYou">un1 ti ha espulso</string>
   <string name="ActionAddUserYou">un1 ti ha aggiunto</string>
   <string name="ActionAddUserSelf">un1 è ritentrato nel gruppo</string>
   <string name="UnsuppotedMedia">Questo messaggio non è supportato sulla tua versione di Telegram. Aggiorna l\'applicazione per visualizzarlo: http://telegram.org/update</string>
@@ -698,18 +661,6 @@
   <string name="Users_few">%1$d utenti</string>
   <string name="Users_many">%1$d utenti</string>
   <string name="Users_other">%1$d utenti</string>
-  <string name="Times_zero">%1$d volte</string>
-  <string name="Times_one">%1$d volta</string>
-  <string name="Times_two">%1$d volte</string>
-  <string name="Times_few">%1$d volte</string>
-  <string name="Times_many">%1$d volte</string>
-  <string name="Times_other">%1$d volte</string>
-  <string name="Meters_zero">%1$d metri</string>
-  <string name="Meters_one">%1$d metro</string>
-  <string name="Meters_two">%1$d metri</string>
-  <string name="Meters_few">%1$d metri</string>
-  <string name="Meters_many">%1$d metri</string>
-  <string name="Meters_other">%1$d metri</string>
   <!--forwarded messages-->
   <string name="ForwardedMessage_zero">%1$d messaggi inoltrati</string>
   <string name="ForwardedMessage_one">Messaggio inoltrato</string>
@@ -776,7 +727,4 @@
   <string name="formatterDay24H">HH:mm</string>
   <string name="formatterDay12H">h:mm a</string>
   <string name="formatDateAtTime">%1$s alle %2$s</string>
-  <!--update text-->
-  <string name="updateText">Telegram per Android si è aggiornato. Nuovo nella versione 2.8:\n\n- Invita nei gruppi tramite link\n- Notifiche intelligenti\n- Pannello degli sticker nella lista emoji\n- Luoghi e direzioni nelle posizioni\n- Stato \'ascoltato\' per i messaggi vocali\n- Stato di scrittura \'avanzato\': inviando una foto, registrando un audio, etc\n- Animazioni e scorrimento migliorati per un\'esperienza rapidissimaaaa\n\nPiù info su questo update:\ntelegram.org/blog/captions-places</string>
-  <string name="updateBuild">515</string>
 </resources>
